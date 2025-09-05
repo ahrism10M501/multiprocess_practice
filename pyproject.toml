@@ -3,7 +3,7 @@ name = "python-thread-pararellel"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "ahrism10M501",email = "ariofeem@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11"
@@ -13,7 +13,6 @@ dependencies = [
 
 [tool.poetry]
 packages = [{include = "python_thread_pararellel", from = "src"}]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
