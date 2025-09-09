@@ -50,8 +50,8 @@
         -(파이썬에서) Thread 동시성 완벽 처리를 위해, Jython(자바에서 파이썬), IronPython, Stackless Python 등의 다른 언어도 있다.
         
     --- --- --- --- --- --- ---
-    Section 3
-    Multithreading - THread Basic 1
+    Section 1
+    Multithreading - Thread Basic 1
     Keyword = Threading basic
     
 """

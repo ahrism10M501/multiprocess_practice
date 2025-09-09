@@ -1,6 +1,6 @@
 '''
     Section 3
-    COncurrency, CPU Bound, I/O Bound - what is Concurrency
+    Concurrency, CPU Bound, I/O Bound - what is Concurrency
     Keyword = Concurrency
 
 '''
@@ -13,6 +13,14 @@
         - 제어권을 주고 받으며 작업을 처리하는 패턴. 병렬적이진 않으나 유사함
         
     Concurrency vs Parralleism
-        - 논리적 vs 
+        동시성:
+            논리적, 동시 실행 패턴, 싱글코어, 멀티 코어에서도 가능 , 한 개를 공유 처리
+            단점: 디버깅 매우매우 매ㅐ애애애우 어려움
+            Mutex, DeadLock
+        
+        병렬성:
+            물리적, 물리적인 동시 실행, 멀티코어에서만 가능, 별개의 작업
+            단점: 디버깅 어려움
+            OpenMP, MPI, CUDA
 
 '''
